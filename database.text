@@ -1,0 +1,11 @@
+CREATE TABLE contact (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100),
+    mobile VARCHAR(13),
+    city VARCHAR(20),
+    date DATE NOT NULL,
+    buisness VARCHAR(100),
+    time TIME NOT NULL,
+    signature VARCHAR(255),
+    PRIMARY KEY (id)
+);
